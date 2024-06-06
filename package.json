@@ -1,0 +1,35 @@
+{
+  "name": "farmerswallet",
+  "version": "0.0.1",
+  "description": "A Bitcoin, Bitcoin Cash self custody mobile wallet",
+  "license": "MIT",
+  "repository": "git://github.com/farmersbuild/wallet.git",
+  "author": "Jonathan Gonzales <l2build@jjgg.com>",
+  "engines": {
+     "node": ">=10.0.0"
+  },
+  "keywords": [
+      "bitcoin",
+      "bitcoin cash",
+      "multisig",
+      "wallet",
+      "mobile"
+  ],
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios"
+  },
+  "dependencies": {
+    "bmulitisig": "git+https://github.com/farmersbuild/bmultisig",
+    "react": "18.2.0",
+    "react-native": "0.72.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/runtime": "^7.21.0",
+    "metro-react-native-babel-preset": "^0.77.0",
+    "bmocha": "git+https://github.com/bcoin-org/bmocha.git#semver:=2.1.2"
+  }
+}
+
